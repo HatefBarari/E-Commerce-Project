@@ -1,5 +1,5 @@
 const { errorResponse, successResponse } = require("../../helpers/responses");
-const Seller = require("../../models/seller");
+const Seller = require("../../models/Seller");
 const {
   createSellerValidator,
   updateSellerValidator,
